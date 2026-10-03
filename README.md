@@ -1,6 +1,7 @@
 # ticketing-engine-core
 
 ### File Structure
+```
 ticketing-engine-core/
 ├── .env.example                               # Global environment configuration template
 ├── .gitignore
@@ -115,3 +116,4 @@ ticketing-engine-core/
     │   └── test_search_cqrs.py                # (Week 7)
     └── load/
         └── locustfile.py                      # (Week 9 & 12) Stress testing scripts
+```
