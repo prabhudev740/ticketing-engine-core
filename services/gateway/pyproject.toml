@@ -1,0 +1,20 @@
+[project]
+name = "ticketing-engine-core"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Prabhuprasad Panda", email = "prabhuprasadpanda01@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi[standard]>=0.142.2",
+    "requests>=2.34.2",
+]
+
+[project.scripts]
+ticketing-engine-core = "ticketing_engine_core:main"
+
+[build-system]
+requires = ["uv_build>=0.12.13,<0.13.0"]
+build-backend = "uv_build"
